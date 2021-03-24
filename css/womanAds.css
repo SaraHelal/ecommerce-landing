@@ -1,0 +1,102 @@
+/*Woman Ads border animation style */
+
+
+.woman-ads .image-anchor{}
+
+/* First animate border from top and right */
+.woman-ads .image-anchor:before{
+	content: '';
+      position: absolute;
+      top: 2%;
+      left: 2%;
+      width: 0;
+      height: 0;
+      background-color: transparent;
+      border: 2px solid transparent;
+}
+.woman-ads .image-anchor:hover:before{
+	animation: animate 1s linear forwards;
+    text-decoration: none;
+}
+
+@keyframes animate 
+  {
+    0%
+    {
+      width: 0;
+      height: 0;
+      border-top-color: #FFF;
+      border-right-color: transparent;
+      border-left-color: transparent;
+      border-bottom-color: transparent;
+    }
+      50%
+    {
+      width: 91%;
+      height: 0;
+      border-top-color: #FFF;
+      border-right-color: #FFF;
+      border-left-color: transparent;
+      border-bottom-color: transparent;
+    }
+      100%
+    {
+      width: 91%;
+      height: 95%;
+      border-top-color: #FFF;
+      border-right-color: #FFF;
+      border-left-color: transparent;
+      border-bottom-color: transparent;
+    }
+
+  }
+
+
+/* Second anmite border from left and bottom */
+
+.woman-ads .image-anchor:after{
+	content: '';
+      position: absolute;
+      top: 2%;
+      left: 2%;
+      width: 0;
+      height: 0;
+      background-color: transparent;
+      border: 2px solid transparent;
+}
+.woman-ads .image-anchor:hover:after{
+	animation: animate2 1s linear forwards;
+    text-decoration: none;
+}
+
+@keyframes animate2 
+  {
+    0%
+    {
+      width: 0;
+      height: 0;
+      border-top-color: transparent;
+      border-right-color: transparent;
+      border-left-color: #FFF;
+      border-bottom-color: transparent;
+    }
+      50%
+    {
+      width: 0;
+      height: 95%;
+      border-top-color: transparent;
+      border-right-color: transparent;
+      border-left-color: #FFF;
+      border-bottom-color: #FFF;
+    }
+      100%
+    {
+      width: 91%;
+      height: 95%;
+      border-top-color: transparent;
+      border-right-color: transparent;
+      border-left-color: #FFF;
+      border-bottom-color: #FFF;
+    }
+
+  }

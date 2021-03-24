@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+		<title>Home Page</title>
+
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/register.css">
+		<link rel="stylesheet" href="css/womanAds.css">
+
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+
+		<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+		<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/custom.js"></script>
+
+
+
+		<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/pure-min.css" integrity="sha384-oAOxQR6DkCoMliIh8yFnu25d7Eq/PHS21PClpwjOTeU2jRSq11vu66rf90/cZr47" crossorigin="anonymous">
+		<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+
+	</head>
+	<body>
+		
+
+			<!-- Main navbar in Home pages   -->
+		
+		<div class="navbar navbar-expand-lg navbar-light">
+		<div class="container nav-icons p-0">
+			<div class="d-flex my-4 w-100">
+				<div class="coin-nav">
+					<ul class="navbar-nav m-auto">
+					<li class="nav-item dropdown">
+							<a class="nav-link " href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" 
+								aria-expanded="false">
+									USD<i class="fas fa-chevron-down"></i>
+							</a>
+							<div class="dropdown-menu" aria-labelledby="navbarDropdown1">
+								<a class="dropdown-item" href="#">TL</a>
+								<a class="dropdown-item" href="#">EUR</a>
+							</div>
+						</li>		
+						<li class="nav-item dropdown">
+							<a class="nav-link " href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" 
+								aria-expanded="false">
+									ENG<i class="fas fa-chevron-down"></i>
+							</a>
+							<div class="dropdown-menu" aria-labelledby="navbarDropdown1">
+								<a class="dropdown-item" href="#">AR</a>
+								<a class="dropdown-item" href="#">TR</a>	
+							</div>
+						</li>
+						
+					</ul>				
+				</div>
+				<div class="logo">
+					<a href="#"><img src="images/logo.png"></a>
+				</div>
+				<div class="nav-right d-flex my-3">
+					<div class="mt-n2" >
+						<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+					</div>
+					<div class="search-icon">
+						<a href="#" ><i class="fa fa-search"></i></a>
+					</div>
+
+					<div class="heart-fav"><a href="#"><i class="far fa-heart"></i></a></div>
+					<div class="sign-icon ">
+						<a class="d-flex" href="register.php" >
+							<div class="mr-2">
+								<i class="far fa-user"></i>
+							</div>
+						
+						</a>		
+					</div>
+					<div class="addCart mt-n3">
+						<a class="d-flex" href="#">
+							<div class="addCart-icon mr-2">
+								<div class="icon">
+									<i class="fas fa-cart-plus"></i>
+									<span class="cart-count">3</span>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>	
+	</div>
+	
+				<nav class="navbar navbar-expand-lg navbar-light mt-n2 p-0">
+					<div class="container">
+					
+					<div class="collapse navbar-collapse" id="navbarContent">
+					<ul class="navbar-nav">
+												<li class="nav-item dropdown">
+													<a class="nav-link " href="index.php">HOME</a>
+												</li>
+												<li class="nav-item dropdown">
+													<a class="nav-link " href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" 
+													aria-expanded="false">
+														Shop<i class="fas fa-chevron-down"></i>
+													</a>
+													<div class="dropdown-menu" aria-labelledby="navbarDropdown1">
+														<a class="dropdown-item" href="#">Action</a>
+														<a class="dropdown-item" href="#">Another action</a>
+														<div class="dropdown-divider"></div>
+														<a class="dropdown-item" href="#">Something else here</a>
+													</div>
+												</li>
+												<li class="nav-item dropdown">
+													<a class="nav-link " href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+														Product<i class="fas fa-chevron-down"></i>
+													</a>
+													<div class="dropdown-menu" aria-labelledby="navbarDropdown2">
+														<a class="dropdown-item" href="#">Action</a>
+														<a class="dropdown-item" href="#">Another action</a>
+														<div class="dropdown-divider"></div>
+														<a class="dropdown-item" href="#">Something else here</a>
+													</div>
+												</li>
+												<li class="nav-item dropdown">
+													<a class="nav-link " href="#" id="navbarDropdown3" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+														Account<i class="fas fa-chevron-down"></i>
+													</a>
+													<div class="dropdown-menu" aria-labelledby="navbarDropdown3">
+									<a class="dropdown-item" href="#">Action</a>
+									<a class="dropdown-item" href="#">Another action</a>
+									<div class="dropdown-divider"></div>
+									<a class="dropdown-item" href="#">Something else here</a>
+								</div>
+							</li>
+							<li class="nav-item dropdown">
+								<a class="nav-link " href="#" id="navbarDropdown4" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									Pages<i class="fas fa-chevron-down"></i>
+								</a>
+								<div class="dropdown-menu" aria-labelledby="navbarDropdown4">
+									<a class="dropdown-item" href="#">Action</a>
+									<a class="dropdown-item" href="#">Another action</a>
+									<div class="dropdown-divider"></div>
+									<a class="dropdown-item" href="#">Something else here</a>
+								</div>
+							</li>
+
+					</ul>
+				</div>
+				</nav>
+
+				<div class="modal-search">
+					<div class="container">
+						<a href="#" class="block-close float-right"><i class="fa fa-window-close fa-2x"></i></a>
+						<div class="search-inner d-flex">
+							<form class="w-100">
+								<div class="input-group input-group-lg mb-3">
+									<input type="text" class="form-control " name="textSearch" placeholder="Search for products..."  aria-describedby="searchIcon">
+									<div class="input-group-append">
+										<span class="input-group-text" id="searchIcon"><a href="#"><i class="fa fa-search"></i></a></span>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+
+			<!-- Sticky navbar in Home pages   -->
+			<div class="sticky-nav header-sticky ">
+					<div class="container">
+						<div class="header-sticky-inner d-flex justify-content-between">
+							<div class="sticky-drop-nav">
+								<nav class="navbar navbar-expand-lg navbar-light p-0">
+										<div class="" id="stickyDropdown">
+											<ul class="navbar-nav">
+												<li class="nav-item dropdown">
+													<a class="nav-link " href="index.php">HOME</a>
+												</li>
+												<li class="nav-item dropdown">
+													<a class="nav-link " href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" 
+													aria-expanded="false">
+														Shop<i class="fas fa-chevron-down"></i>
+													</a>
+													<div class="dropdown-menu" aria-labelledby="navbarDropdown1">
+														<a class="dropdown-item" href="#">Action</a>
+														<a class="dropdown-item" href="#">Another action</a>
+														<div class="dropdown-divider"></div>
+														<a class="dropdown-item" href="#">Something else here</a>
+													</div>
+												</li>
+												<li class="nav-item dropdown">
+													<a class="nav-link " href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+														Product<i class="fas fa-chevron-down"></i>
+													</a>
+													<div class="dropdown-menu" aria-labelledby="navbarDropdown2">
+														<a class="dropdown-item" href="#">Action</a>
+														<a class="dropdown-item" href="#">Another action</a>
+														<div class="dropdown-divider"></div>
+														<a class="dropdown-item" href="#">Something else here</a>
+													</div>
+												</li>
+												<li class="nav-item dropdown">
+													<a class="nav-link " href="#" id="navbarDropdown3" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+														Account<i class="fas fa-chevron-down"></i>
+													</a>
+													<div class="dropdown-menu" aria-labelledby="navbarDropdown3">
+														<a class="dropdown-item" href="#">Action</a>
+														<a class="dropdown-item" href="#">Another action</a>
+														<div class="dropdown-divider"></div>
+														<a class="dropdown-item" href="#">Something else here</a>
+													</div>
+												</li>
+												<li class="nav-item dropdown">
+													<a class="nav-link " href="#" id="navbarDropdown4" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+														Pages<i class="fas fa-chevron-down"></i>
+													</a>
+													<div class="dropdown-menu" aria-labelledby="navbarDropdown4">
+														<a class="dropdown-item" href="#">Action</a>
+														<a class="dropdown-item" href="#">Another action</a>
+														<div class="dropdown-divider"></div>
+														<a class="dropdown-item" href="#">Something else here</a>
+													</div>
+												</li>
+										</ul>
+									</div>
+								</nav>
+							</div>
+							
+							<div class="sticky-right-icons d-flex">
+								<div class="search-icon">
+									<div class="input-group mb-3">
+										<input type="text" class="form-control form-control-lg border-right-0 focus:outline-none" placeholder="Search here ..." aria-label="Recipient's username" aria-describedby="basic-addon2">
+										<div class="input-group-append border-left-0">
+											<span class="input-group-text" id="basic-addon2"><a href="#"><i class="fa fa-search"></i></a></span>
+										</div>
+									</div>
+								</div>
+								<div class="heart-fav"><a href="#"><i class="far fa-heart"></i></a></div>
+								<div class="sign-icon ">
+									<a class="d-flex" href="register.php" >
+										<div class="mr-2">
+											<i class="far fa-user"></i>
+										</div>
+									
+									</a>		
+								</div>
+								<div class="addCart mt-n3">
+									<a class="d-flex" href="#">
+										<div class="addCart-icon mr-2">
+											<div class="icon my-1">
+												<i class="fas fa-cart-plus"></i>
+												<span class="cart-count">3</span>
+											</div>
+										</div>
+									</a>
+								</div>								
+							</div>
+						</div>
+					</div>
+				</div>
+
+			<div id="slider" class="carousel slide" data-ride="carousel">
+
+				<!-- Indicators -->
+				<ul class="carousel-indicators">
+					<li data-target="#slider" data-slide-to="0" class="active"></li>
+					<li data-target="#slider" data-slide-to="1"></li>
+					<li data-target="#slider" data-slide-to="2"></li>
+				</ul>
+
+
+				<!-- The slideshow -->
+				<div class="carousel-inner" id="cars-hover">
+					
+
+						<div class="carousel-item carousel-one active ">
+						<div class="slider-info carousel-caption2 col-lg-6 ">
+							<h1 >Foloral Casual Shirt <br> From Men's Summer Collection </h1>
+							<p>Your one  stop fashion destinamtion! Shop now</p>
+							<button class="btn btn-secondary btn-lg">Shop Now</button>
+						</div>
+					</div>
+
+					<div class="carousel-item carousel-two  ">
+						<div class="slider-info carousel-caption1  col-lg-6 ">
+							<h1>Men's Mid Season Sale <br> Up to %50</h1>
+							<p>Sneakers, Keds & much more...</p>
+							<button class="btn btn-secondary btn-lg">Shop Now</button>
+						</div>
+					</div>
+					
+					<div class="carousel-item carousel-three ">
+						<div class="slider-info carousel-caption2 col-lg-6 ">
+							<h1 >Foloral Casual Shirt <br> From Men's Summer Collection </h1>
+							<p>Your one  stop fashion destinamtion! Shop now</p>
+							<button class="btn btn-secondary btn-lg">Shop Now</button>
+						</div>
+					</div>
+
+				</div>
+
+				<!-- Left and right controls -->
+				<a class="carousel-control-prev" id="prev-hover" href="#slider" data-slide="prev">
+					<span class="carousel-control-prev-icon"></span>
+				</a>
+				<a class="carousel-control-next" href="#slider" data-slide="next">
+					<span class="carousel-control-next-icon"></span>
+				</a>
+
+			</div>
+
+
+			<!--End Slider -->	 
+
+			<!--Start box-bottomCover -->
+			<section class="container boxBtCover  mt-lg-n10">
+
+				<div class="row">
+					<div class="col-sm-12">
+						<div class="card ">
+							<div class="card-body ">
+
+								<div class="row">
+									<div class=" col-sm-4  px-2">
+										<a class="d-block text-center text-decoration-none mr-1" href="">
+											<img class="card-img d-block rounded mb-3 w-100" src="images/b1.jpg" alt="Men">
+											<h4 class="font-size-base pt-1 mb-0">Men</h4>
+										</a>
+									</div>
+
+									<div class="col-sm-4  px-2 ">
+										<a class="d-block text-center text-decoration-none mr-1" href="">
+											<img class="card-img d-block rounded mb-3 w-100" src="images/b3.jpg" alt="Men">
+											<h4 class="font-size-base pt-1 mb-0">Women</h4>
+										</a>
+									</div>
+
+									<div class="col-sm-4  px-2">
+										<a class="d-block text-center text-decoration-none mr-1" href="">
+											<img class="card-img d-block rounded mb-3 w-100" src="images/b2.jpg" alt="Men">
+											<h4 class="font-size-base pt-1 mb-0">Kids</h4>
+										</a>
+									</div>
+
+								</div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</section>
+
+			<!--End box-bottomCover -->
+
+
+			<!--Start Trending-->
+	
+	<div class="trending pt-5">
+
+		<div class="container">
+			<h2 class="h3 text-center">Trending Products</h2>
+			<div class="row">
+
+				<div class="whole-card col-sm-6 col-md-4 col-lg-3" v-for = " cardItem in cardItems.slice(0, 8)">
+					<div class="card">
+						<div class="card-body">
+							<button class="btn btn-secondary btnHeart">
+								<i class="far fa-heart"></i>
+							</button>
+							<a href="#">
+								<img class="card-img" v-bind:src="cardItem.image">
+							</a>
+							<span class="card-text">{{ cardItem.cardText }}</span>
+							<h4 class="card-title">{{ cardItem.cardTitle }}</h4>
+							<div class="price-stars d-flex justify-content-between">
+								<span class="price ">{{cardItem.price}}<small>00</small></span>
+								<div class="stars-icons "  >
+									<i class="fas fa-star fa-x  " v-for="index in 5"  v-bind:class="[index <= cardItem.starNum? 'active' : ' ']" ></i>
+								</div>
+							</div>
+						</div>
+
+						<div class="card-body card-body-hidden text-center">
+
+							<div class="radio-size ">
+								<div class="radio-toolbar" v-if= "cardItem.radioNums.length!==0" v-for="radioNum in cardItem.radioNums">
+									<input type="radio" v-bind:id="'radio' +cardItem.key+ radioNum" name="radioNums" value="radioNums"  >
+									<label v-bind:for="'radio' +cardItem.key+ radioNum">{{radioNum}}</label>
+
+								</div>
+							</div>
+							<div class="radio-color">
+								<div class=" radioColor" v-if= "cardItem.radioColors.length!==0" v-for="radioColor in cardItem.radioColors" >
+									<input type="radio" v-bind:id="'radio-'+cardItem.key+radioColor" name="radioColor" value="radioColor" >
+									<label class="customColorRadio rounded-circle" v-bind:for="'radio-'+cardItem.key+radioColor">
+										<span class="rounded-circle" v-bind:style="{ 'background-color' : radioColor }"></span>
+									</label>
+
+								</div>
+							</div>
+
+							<button class="btn btn-primary btn-block">
+								<i class="fas fa-cart-plus pr-1"></i>Add to Cart
+							</button>
+
+							<div class="text-center">
+								<a href="#"  class="quickView">
+									<i class="far fa-eye"></i>
+									Quick View
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="text-center pt-3"><a class="btn btn-outside" href="#">More products</a></div>
+
+	</div>
+	
+	<!--End Trending-->
+
+
+	
+	
+	
+
+
+	<div class="container">
+		<div class="woman-ads">
+			<a href="#" class="image-anchor"><div class="image-ads"></div></a>
+			<div class="content">
+	            <h3 class="title">Women Spring/Summer Lookbook</h3>
+	                <p class="subtitle">Limited time, while out of stock!</p>
+	           			 <a href="#"  class="button btn btn-primary">
+	               	 		Shop Women
+	            		</a>
+   		 	</div>
+		</div>
+	</div>
+	
+
+	<!-- start socialHeader -->
+	
+
+	<!-- end socialHeader -->
+	<!-- start brands -->
+	<div class="brands">
+		<div class="container">
+			<div class="brands-inner">
+			 	<div class="brandssHeader ">
+				</div>
+				<div class="brandssHeader ">
+				</div>
+				<div class="brandssHeader ">
+				</div>
+				<div class="brandssHeader ">
+				</div>
+			</div>
+	</div>
+</div>
+
+	<!-- start newletters -->
+	<div class="news-email">
+		<div class="container position-relative">
+		<h1>Sign Up Now!</h1>
+		<small>Sign up for our Newsletter to get more events, promotions & news from us!</small>
+		<label class="enter-email my-4">
+			<input type="text" name="email" class="form-control form-control-lg" autocomplete="off">
+		</label>
+		<button class="btn-lg my-4"><i class="fa fa-arrow-right"></i></button>
+	</div>
+	</div>
+
+
+
+	<footer>
+		<div class="container">
+			<div class="footer-inner d-flex justify-content-between">
+				
+				<div class="copy-rights">
+					Copyright ©<a href="#"> KuteThemes</a>
+				</div>
+				<div class="details d-flex flex-column">
+					<a href="#"><img src="images/logo.png"></a>
+					<p class="mb-1">PO1 3TA, Portsmouth United Kingdom</p>
+					<p>(+100) 123 456 7890</p>
+					<div class="social-icons">
+						<ul class="list-unstyled">
+							<li><a href="#" class="rounded-circle"><i class="fab fa-facebook-f"></i></a></li>
+							<li><a href="#" class="rounded-circle"><i class="fab fa-twitter"></i></a></li>
+							<li><a href="#" class="rounded-circle"><i class="fab fa-instagram"></i></a></li>
+							<li><a href="#" class="rounded-circle"><i class="fab fa-pinterest-p"></i></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="right-links d-flex">
+					<ul class="list-unstyled">
+						<li><a href="#">Privacy & Cookies</a></li>
+						<li><a href="#">Ts&Cs</a></li>
+						<li><a href="#">Accessibility</a></li>
+					</ul>
+				</div>
+
+			</div>
+		</div>
+	</footer>
+
+	<script src="js/brands.js"></script>
+
+	<script src="js/cardItems.js"></script>
+	<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="slick/slick.min.js"></script>
+
+	</body>
+	</html>
